@@ -7,4 +7,4 @@ def show (n):
     for i in range(-n, n + 1):
         first_array.append(i)
     return first_array
-print(show(5))
+print(show(int(input())))
