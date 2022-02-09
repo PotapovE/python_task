@@ -18,3 +18,7 @@ print (data)
 x = 10.345
 x = ((x * 10) % 10)
 print(int(x))
+
+# 5. Дано число. Проверить кратно ли оно 5 и 10 или 15 но не 30
+a = 10
+print((not a % 5 and (not a % 10 or not a % 15) and not a % 30 == 0))
