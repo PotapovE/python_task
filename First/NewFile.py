@@ -3,3 +3,7 @@
 x = 4
 y = 2
 print(x**2 == y or y**2 == x)
+# 2. Найти максимальное из пяти чисел
+
+numbers = [3, 6, 4, 9, 4]
+print (max(numbers))
