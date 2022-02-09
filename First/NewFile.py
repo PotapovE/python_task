@@ -2,4 +2,4 @@
 
 x = 4
 y = 2
-print(x*x == y or y*y == x)
+print(x**2 == y or y**2 == x)
