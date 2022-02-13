@@ -13,3 +13,9 @@ def sum (a, b):
 
 z = sum (x, y)
 print (z)
+
+# Необязательный аргумент
+def sum (a, b=3):
+    return a + b
+
+print(sum(1))
