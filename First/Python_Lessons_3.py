@@ -19,3 +19,14 @@ def sum (a, b=3):
     return a + b
 
 print(sum(1))
+
+# Глобальная переменная
+
+a = 33
+def f ():
+    global a
+    a *= 2
+    print(a)
+    
+f()
+print(a)
