@@ -1,5 +1,2 @@
-from email import message
-
-
-message = 'Привет Мир!'
-print (message)  # Вторая программа!
+message = 58
+print (message)  # Третья программа!
