@@ -18,3 +18,10 @@ dict["apple"] = "green" # Замена значения по ключу
 print(dict["apple"])
 del(dict["banana"]) # del() - Удаление элемента из словаря
 print(dict)
+dict["banana"] = "green"
+print(dict)
+
+if dict["banana"] == "yelow":
+    print("Да")
+else:
+    print("Не очень!")
