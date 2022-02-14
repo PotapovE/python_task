@@ -20,3 +20,11 @@ while i <= 10:
     print(i)
     i += 1
     break
+
+# Продолжение выполнения цикла continue
+i = 1
+while i <= 10:
+    if i != 3:
+        print(i)
+    i += 1
+    continue
