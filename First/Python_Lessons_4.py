@@ -28,3 +28,7 @@ while i <= 10:
         print(i)
     i += 1
     continue
+
+# Бесконечный цикл
+while True:
+    print("Эх, понеслась!")
