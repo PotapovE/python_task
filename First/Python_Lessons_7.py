@@ -21,3 +21,8 @@ result = write.split(" ") # .split(" ") - разбивает элементы с
 print(result)
 write_result = " ".join(result) # " ".join(list[]) - Складывает элементы списка в строку через аргумент " "
 print(write_result)
+
+# Удаление символов из строк
+string = "           А тут вдруг текст          "
+print(string.strip()) # .strip # Удаление лишних пробелов из строки (.l(.r)strip - по наитию)
+print(string.replace("А", "О")) # .replace("1", "2") - меняет 1 на 2 в строке
