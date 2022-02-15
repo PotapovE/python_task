@@ -9,3 +9,11 @@ bufer.close()
 
 with open("text.txt", "a") as res: # - конструкция автоматического закрытия файла
     res.write("\nOk, let's go!")
+
+# Исключения
+try:
+    a = int(input("a: "))
+    b = int(input("b: "))
+    print(a/b)
+except ZeroDivisionError:
+    print("На ноль делить нельзя!")
