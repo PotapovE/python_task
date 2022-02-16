@@ -10,3 +10,4 @@ print(sort_set)
 # Меотды работы с множеством
 for i in sort_set: # Вывод элементов множества
     print(i)
+print(3 in sort_set) # Поиск элемента во множестве (True, False)
