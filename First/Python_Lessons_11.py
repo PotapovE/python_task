@@ -27,3 +27,4 @@ res_set = numbers - sort_set # "-" - Разница множеств
 print(res_set)
 res_set = sort_set.copy() # .copy() - Копирование множества
 print(res_set)
+print(len(res_set)) # len() - Количество элементов множества
