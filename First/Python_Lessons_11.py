@@ -30,3 +30,8 @@ print(res_set)
 print(len(res_set)) # len() - Количество элементов множества
 res_set = frozenset(numbers) # frozenset() - Неизменяемое множество
 print(res_set)
+try:
+    res_set.add(33)
+    print(res_set)
+except AttributeError:
+    print("Неизменяемое множество")
