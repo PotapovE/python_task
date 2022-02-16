@@ -1,5 +1,5 @@
 # Множества
-numbers = {1, 5, 7, 11}
+numbers = {1, 5, 7, 11, 48, 54, 68}
 empty_set = set() # set() - Создать пустое множество
 print(numbers)
 print(type(empty_set))
@@ -11,7 +11,11 @@ print(sort_set)
 for i in sort_set: # Вывод элементов множества
     print(i)
 print(3 in sort_set) # Поиск элемента во множестве (True, False)
-sort_set.add(33) # .add() - Добавить элемент множества
+sort_set.add(55) # .add() - Добавить элемент множества
 sort_set.discard(99) # .discard() - Удаляет элемент из множества
-sort_set.remove(33) # .remove() - Удаляет присутствующий элемент из множества 
+sort_set.remove(3) # .remove() - Удаляет присутствующий элемент из множества 
+sort_set.pop() # .pop() - Удаляет первый элемент
+# sort_set.clear() # .clear() - Удаляет все элементы
 print(sort_set) 
+res_set = numbers.union(sort_set) # .union() - Объединение множеств
+print(res_set)
