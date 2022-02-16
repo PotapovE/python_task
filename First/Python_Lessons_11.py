@@ -11,3 +11,5 @@ print(sort_set)
 for i in sort_set: # Вывод элементов множества
     print(i)
 print(3 in sort_set) # Поиск элемента во множестве (True, False)
+sort_set.add(33) # .add() - Добавить элемент множества
+print(sort_set) 
