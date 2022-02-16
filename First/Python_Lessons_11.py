@@ -1,7 +1,4 @@
 # Множества
-import re
-
-
 numbers = {1, 5, 7, 11, 48, 54, 68}
 empty_set = set() # set() - Создать пустое множество
 print(numbers)
@@ -27,4 +24,6 @@ res_set = numbers.intersection(sort_set) # .intersection() - Пересечен�
 res_set = numbers & sort_set # & - Вариант записи пересечения множеств
 print(res_set)
 res_set = numbers - sort_set # "-" - Разница множеств
+print(res_set)
+res_set = sort_set.copy() # .copy() - Копирование множества
 print(res_set)
