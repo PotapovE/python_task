@@ -26,3 +26,5 @@ print(res_set)
 res_set = numbers.intersection(sort_set) # .intersection() - Пересечение множеств
 res_set = numbers & sort_set # & - Вариант записи пересечения множеств
 print(res_set)
+res_set = numbers - sort_set # "-" - Разница множеств
+print(res_set)
