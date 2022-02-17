@@ -10,3 +10,5 @@ result = re.match("С", text) # .match() - Определяет, еслть ли
 print(result)
 result = re.search("и", text) # .search() - поиск первого шаблона во всем тексте
 print(result) # result[i] - Выводит искомый шаблон
+result = re.findall("ой", text) # .findall() - Создаёт список со всеми найденными шаблонами в тексте
+print(result)
