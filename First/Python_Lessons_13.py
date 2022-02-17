@@ -6,3 +6,5 @@ result = re.search(r"n..r", text) # r"i...j" - Шаблон для поиска 
 print(result)
 result = re.search(r"\d\d\d\d\d\d\d\d", text) # \d - Вывод цифр по шаблону
 print(result)
+result = re.search(r"\D", text) # \D - Вывод символа кроме цифры шаблону
+print(result)
