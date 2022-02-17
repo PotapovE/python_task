@@ -8,3 +8,5 @@ result = re.search(r"\d\d\d\d\d\d\d\d", text) # \d - Вывод цифр по ш
 print(result)
 result = re.search(r"\D", text) # \D - Вывод символа кроме цифры шаблону
 print(result)
+result = re.search(r"\s", text) # \s - Вывод (\S кроме) пробела по шаблону
+print(result)
