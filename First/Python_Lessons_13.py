@@ -16,3 +16,5 @@ result = re.search(r"\b73", text) # \b - Вывод (\B середина) нач
 print(result)
 result = re.search(r"[^3-7]", text) # [] - Диапазон поиска (^) - кроме
 print(result)
+result = re.search(r"3|%", text) # | - Первый вывод одного из
+print(result)
