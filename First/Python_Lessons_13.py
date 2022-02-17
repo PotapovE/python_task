@@ -12,3 +12,5 @@ result = re.search(r"\s", text) # \s - Вывод (\S кроме) пробела
 print(result)
 result = re.search(r"\w", text) # \w - Вывод (\W кроме) буквы, цифры, "_" по шаблону
 print(result)
+result = re.search(r"\b73", text) # \b - Вывод (\B середина) начала или конца слова по шаблону
+print(result)
