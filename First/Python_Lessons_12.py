@@ -7,15 +7,11 @@ text = """С другой стороны сложившаяся структур
 С другой стороны выбранный нами инновационный путь способствует повышению актуальности позиций, занимаемых участниками 
 в отношении поставленных задач."""
 result = re.match("С", text) # .match() - Определяет, еслть ли искомое выражение в начале строки
-print(result)
 result = re.search("и", text) # .search() - поиск первого шаблона во всем тексте
 print(result) # result[i] - Выводит искомый шаблон
 result = re.findall("ой", text) # .findall() - Создаёт список со всеми найденными шаблонами в тексте
-print(result)
 result = re.split("\n", text) # .split() - Создает список по ключу (maxsplit= - количество разбивок)
-print(result)
 result = re.sub(" ", "_", text) # .sub() - Замена символов в тексте
-print(result)
 res = "С другой стороны"
 test = res
 result = re.fullmatch(test, res) # .fullmatch() - Сравнивает шаблон с текстом
