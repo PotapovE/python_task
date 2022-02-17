@@ -14,3 +14,5 @@ result = re.findall("ой", text) # .findall() - Создаёт список с�
 print(result)
 result = re.split("\n", text) # .split() - Создает список по ключу (maxsplit= - количество разбивок)
 print(result)
+result = re.sub(" ", "_", text) # .sub() - Замена символов в тексте
+print(result)
