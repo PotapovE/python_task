@@ -16,3 +16,7 @@ result = re.split("\n", text) # .split() - Создает список по кл
 print(result)
 result = re.sub(" ", "_", text) # .sub() - Замена символов в тексте
 print(result)
+res = "С другой стороны"
+test = res
+result = re.fullmatch(test, res) # .fullmatch() - Сравнивает шаблон с текстом
+print(result)
