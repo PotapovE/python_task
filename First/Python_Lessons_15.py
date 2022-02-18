@@ -13,3 +13,9 @@ print(list(a))
 # Пример с лямбдой
 a = map(lambda a, b: a * b, [3, 9], [5, 8])
 print(list(a))
+
+# Функция filter
+def func (a):
+    return a % 2 != 0
+a = filter(func, [3, 6, 7])
+print(list(a))
