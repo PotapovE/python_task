@@ -23,3 +23,9 @@ print(list(a))
 from functools import reduce
 
 print(reduce(lambda x, y: x * y, [1, 3, 4, 5]))
+
+# Функция zip
+a = [1, 6, 8, 3, 7]
+b = 'dsfgfghgfgs'
+res = zip(a, b)
+print(list(res))
