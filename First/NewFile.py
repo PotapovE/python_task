@@ -73,3 +73,12 @@ B = (0, 6)
 def answer (point_a, point_b):
     return math.sqrt(math.pow(point_b[0]-point_a[0], 2) + math.pow(point_b[1]-point_a[1], 2))
 print(answer(A, B))
+
+# 11. Сформировать список из  N членов последовательности. Для N = 5: 1, -3, 9, -27, 81 и т.д.
+n = int(input("Введите N: "))
+s = [1]
+res = 1
+for i in range(1, n):
+    res *= -3
+    s.append(res)
+print(s)
