@@ -1,5 +1,8 @@
-# 12. Для натурального n создать словарь индекс-значение, состоящий из элементов последовательности 3n + 1.
-dict_num = {}
-for i in range(1, int(input()) + 1):
-    dict_num[i] = 3 * i + 1
-print(dict_num)
+# 13. Пользователь задаёт две строки. Определить количество вхождений одной строки в другой.
+text_user, user_text = input(), input()
+user_text_list = user_text.split()
+counter = 0
+for i in user_text_list:
+    if i == text_user:
+        counter += 1
+print(counter)
