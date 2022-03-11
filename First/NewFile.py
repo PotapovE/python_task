@@ -82,3 +82,9 @@ for i in range(1, n):
     res *= -3
     s.append(res)
 print(s)
+
+# 12. Для натурального n создать словарь индекс-значение, состоящий из элементов последовательности 3n + 1.
+dict_num = {}
+for i in range(1, int(input()) + 1):
+    dict_num[i] = 3 * i + 1
+print(dict_num)
